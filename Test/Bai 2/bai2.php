@@ -10,7 +10,7 @@ foreach($a as $index => $value)
     if($value == 8)
     {
         $dem++;
-        $vitri[] = $index + 1;
+        // $vitri[] = $index + 1;
     }
 }
 
