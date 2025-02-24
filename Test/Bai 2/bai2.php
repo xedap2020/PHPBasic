@@ -16,4 +16,4 @@ foreach($a as $index => $value)
 
 echo "Số lần xuất hiện của số 8 trong mảng là: ".$dem."<br>";
 
-echo "Các vị trí xuất hiện: " . implode(", ", $vitri);
+// echo "Các vị trí xuất hiện: " . implode(", ", $vitri);
