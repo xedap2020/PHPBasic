@@ -16,7 +16,8 @@ function checkSNT($n)
     return true;
 }
 
-// Cách 2: có thể sử dùng sàng số nguyên tố
+// Cách 2: có thể sử dụng sàng số nguyên tố
+
 
 $dem = 0;
 $demSNT = [];
