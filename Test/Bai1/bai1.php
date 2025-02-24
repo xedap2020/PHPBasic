@@ -30,7 +30,7 @@ while($dem < 20)
         $demSNT[] = $tmp;
         $dem++;
     }
-    $tmp++;
+    $tmp+=2;
 }
 
 echo "20 số nguyên tố đầu tiên lớn hơn 30 là: ".implode(", ", $demSNT);
