@@ -30,7 +30,18 @@ if($_SERVER["REQUEST_METHOD"] == 'POST')
             }
             return $giaiThua;
     }
-
+    // function giaiThua($n)
+    // {
+    //     if($n == 0 || $n ==1)
+    //     {
+    //         return 1;
+    //     }
+    //     else
+    //     {
+    //         return $n * giaiThua($n -1);
+    //     }
+    // }
+    
     echo "Giai thừa của $n là: " . giaiThua($n);
 }
 
